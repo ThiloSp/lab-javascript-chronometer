@@ -15,14 +15,14 @@ function printTime() {
 
 function printMinutes() {
   let minutes = chronometer.twoDigitsNumber(chronometer.setMinutes());
-  minDec.innerHTML = minutes.charAt(0);
-  minUni.innerHTML = minutes.charAt(1);
+  minDec.innerHTML = minutes[0];
+  minUni.innerHTML = minutes[1];
 }
 
 function printSeconds() {
   let seconds = chronometer.twoDigitsNumber(chronometer.setSeconds());
-  secDec.innerHTML = seconds.charAt(0);
-  secUni.innerHTML = seconds.charAt(1);
+  secDec.innerHTML = seconds[0];
+  secUni.innerHTML = seconds[1];
 }
 
 function printMilliseconds() {}
